@@ -14,4 +14,7 @@ const   a = prompt('The last wached movie?', ''),
         c = prompt('The last wached movie?', ''),
         d = prompt('How you will rate it?', '');
 
-personalMovieOB.movies[a] =b;
+personalMovieOB.movies[a] = b;
+personalMovieOB.movies[c] = d;
+
+console.log(personalMovieOB);
